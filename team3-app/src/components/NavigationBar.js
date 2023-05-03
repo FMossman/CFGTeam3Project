@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 
 function NavigationBar() {
@@ -9,12 +9,11 @@ function NavigationBar() {
             </div>
             <div className="Nav-list">
                 <ul className="navListUl">
-                    <li>Home</li>
-                    <li>Member Page</li>
+                    <li><Link to="home">Home</Link></li>
+                    <li><Link to="member1">Member 1</Link></li>
+                    <li><Link to="member2">Member 2</Link></li>
                 </ul>
-            </div>
-                
-            
+            </div>  
         </div>
     );
   }
