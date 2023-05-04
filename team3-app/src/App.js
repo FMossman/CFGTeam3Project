@@ -4,7 +4,7 @@ import { Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
 import Member1 from './pages/Member1';
 import Member2 from './pages/Member2';
-import Member3 from './pages/Member2';
+import Member3 from './pages/Member3';
 import NavigationBar from './components/NavigationBar';
 
 
