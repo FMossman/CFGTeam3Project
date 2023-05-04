@@ -1,7 +1,12 @@
 import React from 'react';
 import Member from '../components/MemberCard';
 
-
+/* I'm trying to see if I can set up an array of members to use and loop through to create the cards automatically and then when someone hits the add member card it will generate another card with the new info...
+const member = [];
+member[0] = {name:"Fiona", age:"39", background: "Worked in film and television before becoming a primary school teacher and is now wanting to switch careers."};
+member[1] = {name:"Jodi", age:"??", background: "???????"};
+member[2] = {name:"Erin", age:"??", background: "???????"};
+*/
 
 
 function Home() {
@@ -15,7 +20,10 @@ function Home() {
             <Member name='Fiona' age='39' />
           </a>
           <a href="./Member2">
-            <Member name='Jodie' age='39' />
+            <Member name='Jodie' age='??' />
+          </a>
+          <a href="./Member2">
+            <Member name='Erin' age='??' />
           </a>
           <div className="memberCard">
             <button className="addMemberButton">+</button>
@@ -26,3 +34,4 @@ function Home() {
   }
   
   export default Home;
+

@@ -1,0 +1,12 @@
+.memberCardsContainer {
+    display: flex;
+  }
+
+
+.memberCard {
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    border-radius: 20px;
+    background: #8F8EBF;
+} 
