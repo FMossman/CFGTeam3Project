@@ -13,10 +13,12 @@ function App() {
     <div className="App">
       <NavigationBar/>
       <Routes>
-        <Route path="/home" element={ <Home/> } />
-        <Route path="/member1" element={ <Member1/> } />
-        <Route path="/member2" element={ <Member2/> } />
+        <Route path="/" element={ <Home/> } />
+        <Route path="home" element={ <Home/> } />
+        <Route path="member1" element={ <Member1/> } />
+        <Route path="member2" element={ <Member2/> } />
       </Routes>
+
     </div>
   );
 }
