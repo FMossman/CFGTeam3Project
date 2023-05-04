@@ -22,7 +22,13 @@
   }
 }
 
+a {
+  color: white;
+}
 
+a:hover {
+  color: #474073;
+}
 
 .App-link {
   color: #61dafb;
@@ -70,3 +76,27 @@
 .homePage {
   width: 100%;
 }
+
+ 
+
+a {
+  margin: 0;
+  text-decoration: none;
+}
+
+h2 {
+  margin: 0;
+}
+
+.addMemberButton {
+  color: white;
+  border-radius: 100%;
+  font-size: xx-large;
+  border: none;
+  background-color: #474073;
+  width: 100px;
+  height: 100px;
+}
+
+
+
