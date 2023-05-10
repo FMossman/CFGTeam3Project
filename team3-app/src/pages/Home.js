@@ -22,7 +22,7 @@ function Home() {
           <a href="./Member2">
             <Member name='Jodie' age='??' />
           </a>
-          <a href="./Member2">
+          <a href="./Member3">
             <Member name='Erin' age='??' />
           </a>
           <div className="memberCard">
