@@ -17,3 +17,13 @@
     border-radius: 20px;
     background: #8F8EBF;
 } 
+
+.addMemberButton {
+  color: white;
+  border-radius: 100%;
+  font-size: xx-large;
+  border: none;
+  background-color: #474073;
+  width: 100px;
+  height: 100px;
+}

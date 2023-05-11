@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
 
-
-function NavigationBar() {
+function NavigationBar(props) {
     return (
         <div className="wholeNavBar">
             <div className="team3Icon">
