@@ -1,5 +1,7 @@
 import React from 'react';
 import Member from '../components/MemberCard';
+import AddMemberPopup from '../components/AddMemberPopup';
+import { useState } from 'react';
 
 /* I'm trying to see if I can set up an array of members to use and loop through to create the cards automatically and then when someone hits the add member card it will generate another card with the new info...
 const member = [];
@@ -10,6 +12,7 @@ member[2] = {name:"Erin", age:"??", background: "???????"};
 
 
 function Home() {
+  const [buttonPopup, setButtonPopup] = useState(false);
     return (
       <div className="mainSection">
         <div className="header">
@@ -26,8 +29,12 @@ function Home() {
             <Member name='Erin' age='??' />
           </a>
           <div className="memberCard">
-            <button className="addMemberButton">+</button>
+            <button className="addMemberButton" onClick={() => setButtonPopup(true)}>+</button>
           </div>
+          
+          <AddMemberPopup trigger={buttonPopup} setTrigger={setButtonPopup}>
+          
+          </AddMemberPopup>
         </div>
       </div>
     );
