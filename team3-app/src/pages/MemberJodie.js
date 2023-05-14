@@ -13,12 +13,29 @@ return (
         <section className="img-section"> 
             <img className="img-profile" src={JodieImg} alt="JodieImg"></img>
         </section>
-        <section className="about-section"> 
-            <ul>
-                <li>Occupation: Teacher</li>
-                <li>Hobbies: Football</li>
-                <li>Favourite Food: Pizza</li>
-            </ul>
+        <section className="left-section"> 
+            <div>
+                <p className="section-title-left">Occupation</p>
+            </div>
+            <div className="section-list">
+                <ul>
+                    <li>Teacher</li>
+                    <li>Physics</li>
+                    <li>Science</li>
+                </ul>
+            </div>
+        </section>
+        <section className="right-section"> 
+            <div>
+                <p className="section-title-right">Hobbies</p>
+            </div>
+            <div className="section-list">
+                <ul>
+                    <li>Football</li>
+                    <li>Walking</li>
+                    <li>Gardening</li>
+                </ul>
+            </div>
         </section>
     </div>
 );
