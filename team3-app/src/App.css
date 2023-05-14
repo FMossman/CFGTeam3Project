@@ -34,14 +34,7 @@ a:hover {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
 
 
 .wholeNavBar {
@@ -88,15 +81,7 @@ h2 {
   margin: 0;
 }
 
-.addMemberButton {
-  color: white;
-  border-radius: 100%;
-  font-size: xx-large;
-  border: none;
-  background-color: #474073;
-  width: 100px;
-  height: 100px;
-}
+
 
 
 

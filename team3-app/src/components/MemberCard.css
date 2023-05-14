@@ -1,12 +1,29 @@
 .memberCardsContainer {
     display: flex;
+    align-items: center;
+    flex-wrap:wrap;
   }
 
 
 .memberCard {
-    width: 300px;
-    height: 400px;
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
     margin: 10px;
+    padding: 20px;
     border-radius: 20px;
     background: #8F8EBF;
 } 
+
+.addMemberButton {
+  color: white;
+  border-radius: 100%;
+  font-size: xx-large;
+  border: none;
+  background-color: #474073;
+  width: 100px;
+  height: 100px;
+}
