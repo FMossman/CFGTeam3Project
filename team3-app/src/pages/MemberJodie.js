@@ -17,9 +17,9 @@ return (
         <section className="img-section"> 
             <img className="img-profile" src={JodieImg} alt="JodieImg"></img>
         </section>
-        <section className="left-section"> 
+        <section className="right-section"> 
             <div>
-                <p className="section-title-left">Occupation</p>
+                <p className="section-title-right">Occupation</p>
             </div>
             <div className="section-list">
                 <ul>
@@ -29,9 +29,9 @@ return (
                 </ul>
             </div>
         </section>
-        <section className="right-section"> 
+        <section className="left-section"> 
             <div>
-                <p className="section-title-right">Hobbies</p>
+                <p className="section-title-left">Hobbies</p>
             </div>
             <div className="section-list">
                 <ul>
@@ -41,9 +41,9 @@ return (
                 </ul>
             </div>
         </section>
-        <section className="left-section"> 
+        <section className="right-section"> 
             <div>
-                <p className="section-title-left">Contact</p>
+                <p className="section-title-right">Contact</p>
             </div>
             <div className="section-list">
                 <ul>
