@@ -7,9 +7,9 @@ import './Member.css'
 const Member2 = () => {
 return (
     <div>
-        <section>
+        <section className="header-section">
             <h1>About Jodie</h1>
-            </section>
+        </section>
         <section className="img-section"> 
             <img className="img-profile" src={JodieImg} alt="JodieImg"></img>
         </section>
@@ -34,6 +34,18 @@ return (
                     <li>Football</li>
                     <li>Walking</li>
                     <li>Gardening</li>
+                </ul>
+            </div>
+        </section>
+        <section className="left-section"> 
+            <div>
+                <p className="section-title-left">Contact</p>
+            </div>
+            <div className="section-list">
+                <ul>
+                    <li>jodietennant17@gmail.com</li>
+                    <li>07762514233</li>
+                    <li>https://github.com/Tennjo17</li>
                 </ul>
             </div>
         </section>
