@@ -2,9 +2,9 @@
 import './App.css';
 import { Routes, Route } from "react-router-dom";
 import Home from './pages/Home';
-import Member1 from './pages/member1';
-import Member2 from './pages/member2';
-import Member3 from './pages/Member3';
+import Member1 from './pages/MemberFiona';
+import Member2 from './pages/MemberJodie';
+import Member3 from './pages/MemberErin';
 import NavigationBar from './components/NavigationBar';
 
 

@@ -20,7 +20,7 @@ function Home() {
             <Member name='Fiona' age='39' />
           </a>
           <a href="./Member2">
-            <Member name='Jodie' age='??' />
+            <Member name='Jodie' age='37' />
           </a>
           <a href="./Member2">
             <Member name='Erin' age='??' />
