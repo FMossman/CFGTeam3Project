@@ -1,5 +1,5 @@
 import React from 'react';
-
+import './Member.css'
 
 
 
@@ -7,7 +7,7 @@ import React from 'react';
 const Member3 = () => {
 return (
     <div>
-        <h1>About Member 3</h1>
+        <h1>About Erin</h1>
     </div>
 );
 };
