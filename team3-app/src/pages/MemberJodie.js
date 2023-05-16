@@ -1,5 +1,4 @@
 import React from 'react';
-import JodieImg from './images/JodieHols.png';
 import './Member.css'
 import { SocialIcon } from 'react-social-icons';
 
@@ -10,12 +9,12 @@ const whatsapp_url = "https://whatsapp.com"
 
 const Member2 = () => {
 return (
-    <div>
+    <div className="member-page">
         <section className="header-section">
             <h1>About Jodie</h1>
         </section>
-        <section className="img-section"> 
-            <img className="img-profile" src={JodieImg} alt="JodieImg"></img>
+        <section> 
+            <div className="img-profile"></div>
         </section>
         <section className="right-section"> 
             <div>
