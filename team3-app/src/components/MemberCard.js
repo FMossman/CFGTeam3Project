@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 import './MemberCard.css';
 
-//function MemberCard for holding image/name/age/background
+
 
 function MemberCard({ name, age }) {
     return(
