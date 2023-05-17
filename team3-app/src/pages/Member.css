@@ -1,23 +1,95 @@
-.img-profile {
+.member-page {
+  margin: 0;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.img-section {
     width: 100%;
     height: 100%;
   }
 
-  .img-section {
-    width: 100%;
-    height: 100%;
+  .img-profile-jodie {
+    /* The image used */
+    background-image: url("./images/JodieHols.png");
+
+    /* Set a specific height */
+    min-width: 100vh;
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  img-profile-fiona {
+    /* The image used */
+    background-image: url("./images/JodieHols.png");
+
+    /* Set a specific height */
+    min-width: 100vh;
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  img-profile-erin {
+    /* The image used */
+    background-image: url("./images/JodieHols.png");
+
+    /* Set a specific height */
+    min-width: 100vh;
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
   }
   
   .left-section {
     width: 100%;
-    height: 200px;
-    background-color: #474073;
+    height: 25 s0px;
+    background-color: white;
+    color: #8F8EBF;
+  }
+
+  .section-title-left {
+    text-align: left;
+    padding: 5px;
+    font-size: 1.25em;
+    border-left: 20px solid #474073;
+  }
+
+  .colour-section {
+    width: 100%;
+    height: 250px;
+    background-color: #8F8EBF;
     color: white;
   }
 
-  .right-section {
-    width: 100%;
-    height: 200px;
-    background-color: white;
-    color: #474073;
+  .list-left {
+    list-style-type: none;
+    display: inline-block;
+    text-align: left;
+    font-size: 1em;
+}
+
+.list-middle {
+  list-style-type: none;
+  display: inline-block;
+  text-align: center;
+  font-size: 1em;
+}
+
+  h1 {
+    color: #8F8EBF;
+    font-size: 1.5em;
   }
