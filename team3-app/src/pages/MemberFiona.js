@@ -2,9 +2,9 @@ import React from 'react';
 import './Member.css'
 import { SocialIcon } from 'react-social-icons';
 
-const github_url = "https://github.com/"
+const github_url = "https://github.com/FMossman"
 const gmail_url = "https://mail.google.com"
-const email_url = ""
+const email_url = "fmcmossman@gmail.com"
 const whatsapp_url = "https://whatsapp.com"
 
 const Member1 = () => {
@@ -14,7 +14,7 @@ return (
             <h1>About Fiona</h1>
         </section>
         <section> 
-            <div className="img-profile-jodie"></div>
+            <div className="img-profile-fiona"></div>
         </section>
         <section className="left-section"> 
             <div>
@@ -22,9 +22,9 @@ return (
             </div>
             <div className="section-list">
                 <ul className="list-middle" >
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Acting Principal Teacher</li>
+                    <li>ICT Coordinator</li>
+                    <li>Lead for Digital Learning and Maths</li>
                 </ul>
             </div>
         </section>
@@ -34,9 +34,9 @@ return (
             </div>
             <div className="section-list">
             <ul className="list-middle" >
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>Boardgames</li>
+                    <li>Running</li>
+                    <li>Reading</li>
                 </ul>
             </div>
         </section>
@@ -48,7 +48,7 @@ return (
             <ul className="list-left" >
                 <li><SocialIcon url={github_url} fgColor="#fff"  />{github_url}</li>
                 <li><SocialIcon url={gmail_url} fgColor="#fff"  />{email_url}</li>
-                <li><SocialIcon url={whatsapp_url} fgColor="#fff"  /></li>
+                <li><SocialIcon url={whatsapp_url} fgColor="#fff"  />07791589896</li>
                 </ul>
             </div>
         </section>
