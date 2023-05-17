@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Form</title>
+    <link rel="stylesheet" type="text/css" href="Email.css">
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            // https://dashboard.emailjs.com/admin/account <-- when you create an account and link your email it will give you a public ID, 
+            // insert it in the inverted commas below. 
+            emailjs.init('b4Xuukld0fjgbujy3');
+        })();
+    </script>
+    <script type="text/javascript">
+        window.onload = function() {
+            document.getElementById('contact-form').addEventListener('submit', function(event) {
+                event.preventDefault();
+                // below generates a five digit number for the contact_number variable
+                this.contact_number.value = Math.random() * 100000 | 0;
+                // rename email ID to contact_service and use below. 
+                emailjs.sendForm('contact_service', 'contact_form', this)
+                    .then(function() {
+                        console.log('SUCCESS!');
+                    }, function(error) {
+                        console.log('FAILED...', error);
+                    });
+            });
+        }
+    </script>
+</head>
+<body>
+    <h1>Contact Erin</h1>
+    <p>Contact Erin about anything and everything!</p>
+    <form id="contact-form">
+        <input type="hidden" name="contact_name">
+        <label>Name</label>
+        <input type="text" name="user_name">
+        <label>Email</label>
+        <input type="email" name="user_email">
+        <label>Message</label>
+        <textarea name="message"></textarea>
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
+
