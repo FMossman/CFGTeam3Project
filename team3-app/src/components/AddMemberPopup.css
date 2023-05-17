@@ -17,6 +17,7 @@
     width: 100%;
     max-width: 640px;
     background-color: white;
+    font-size: small;
 }
 
 
@@ -32,4 +33,38 @@
     position:absolute;
     top: 16px;
     right: 16px;
+}
+
+.popup h3 {
+    color:#474073;
+}
+
+.popUpForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hobbies {
+    display: flex;
+}
+
+.hobbyList {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hobbyList input {
+    margin: 10px;
+}
+
+.formItems {
+    padding: 10px;
+    margin: 10px;
+
+}
+
+input {
+    width: 300px;
 }

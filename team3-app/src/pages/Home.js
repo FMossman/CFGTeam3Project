@@ -5,9 +5,9 @@ import { useState } from 'react';
 
 
 const memberArray = [
-{name:"Fiona", age:"39", page: "./Member1", background: "Worked in film and television before becoming a primary school teacher and is now wanting to switch careers."},
-{name:"Jodi", age:"??", page: "./Member2", background: "???????"},
-{name:"Erin", age:"??", page: "./Member3", background: "???????"}
+{name:"Fiona", age:"39", page: "./Member1", picture: ".\\images\\fionamossman.jpg", hobbies:"", occupation:""},
+{name:"Jodie", age:"??", page: "./Member2", picture: "\\images\\JodieHols.png", hobbies:"", occupation:""},
+{name:"Erin", age:"??", page: "./Member3", picture: "../../public/images/fionamossman.jpg", hobbies:"", occupation:""}
 ];
 
 
@@ -16,7 +16,7 @@ const memberArray = [
   memberArray.forEach((member,index)=>{
     memberList.push(
       <a key={index} href={member.page}>
-      <Member key={index} name= {member.name} age= {member.age} />
+      <Member key={index} name= {member.name} age= {member.age} picture= {member.picture}/>
       </a>
     )
   })
