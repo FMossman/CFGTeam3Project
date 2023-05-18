@@ -3,23 +3,12 @@ import Member from '../components/MemberCard';
 import AddMemberPopup from '../components/AddMemberPopup';
 import { useState } from 'react';
 
-
-const memberArray = [
-{name:"Fiona", age:"39", page: "./Member1", picture: ".\\images\\fionamossman.jpg", hobbies:"", occupation:""},
-{name:"Jodie", age:"??", page: "./Member2", picture: "\\images\\JodieHols.png", hobbies:"", occupation:""},
-{name:"Erin", age:"??", page: "./Member3", picture: "../../public/images/fionamossman.jpg", hobbies:"", occupation:""}
-];
-
-
-  let memberList=[];
-
-  memberArray.forEach((member,index)=>{
-    memberList.push(
-      <a key={index} href={member.page}>
-      <Member key={index} name= {member.name} age= {member.age} picture= {member.picture}/>
-      </a>
-    )
-  })
+/* I'm trying to see if I can set up an array of members to use and loop through to create the cards automatically and then when someone hits the add member card it will generate another card with the new info...
+const member = [];
+member[0] = {name:"Fiona", age:"39", background: "Worked in film and television before becoming a primary school teacher and is now wanting to switch careers."};
+member[1] = {name:"Jodi", age:"??", background: "???????"};
+member[2] = {name:"Erin", age:"??", background: "???????"};
+*/
 
 
 function Home() {
@@ -30,16 +19,22 @@ function Home() {
           <h1>CFG Team 3</h1>
         </div>
         <div className="memberCardsContainer">
-
-          { memberList }
-
+          <a href="./Member1">
+            <Member name='Fiona' age='39' />
+          </a>
+          <a href="./Member2">
+            <Member name='Jodie' age='37' />
+          </a>
+          <a href="./Member3">
+            <Member name='Erin' age='??' />
+          </a>
           <div className="memberCard">
             <button className="addMemberButton" onClick={() => setButtonPopup(true)}>+</button>
           </div>
-
+          
           <AddMemberPopup trigger={buttonPopup} setTrigger={setButtonPopup}>
+          
           </AddMemberPopup>
-
         </div>
       </div>
     );
