@@ -13,6 +13,7 @@ function AddMemberPopup(props) {
                     <br></br>
                     <form className="popUpForm">
                         <div className="formItems">
+
                             <label className="listLabel">Name: </label>
                             <input type="text"/>
                         </div>
@@ -33,13 +34,16 @@ function AddMemberPopup(props) {
                         
                         <div className="hobbies formItems">
                             <label className="listLabel">Hobbies: </label>
+
                             <div className="hobbyList">
                                 <input type="text"/>
                                 <input type="text"/>
                                 <input type="text"/>
                             </div>
                         </div>
+
                         <button className="submitButton" type="submit">Submit</button>
+
                     </form>
             </div>
             </div>

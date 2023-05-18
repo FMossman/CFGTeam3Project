@@ -5,6 +5,7 @@ import { useState } from 'react';
 
 
 const memberArray = [
+
 {name:"Fiona", 
 age:"39", 
 page: "./Member1", 
@@ -49,6 +50,7 @@ memberArray.forEach((member,index)=>{
     </a>
   )
 })
+
 
 
 function Home() {
