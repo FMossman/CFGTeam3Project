@@ -35,6 +35,20 @@
     right: 16px;
 }
 
+.popup-inner .addMemberButton:hover {
+    color: #474073;
+    border-radius: 100%;
+    font-size: small;
+    border: none;
+    background-color: #8F8E8F;
+    width: 30px;
+    height: 30px;
+
+    position:absolute;
+    top: 16px;
+    right: 16px;
+}
+
 .popup h3 {
     color:#474073;
 }
