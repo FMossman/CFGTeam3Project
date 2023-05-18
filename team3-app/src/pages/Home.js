@@ -2,6 +2,7 @@ import React from 'react';
 import Member from '../components/MemberCard';
 import AddMemberPopup from '../components/AddMemberPopup';
 import { useState } from 'react';
+import PropTypes from 'prop-types';
 
 
 const memberArray = [
@@ -31,7 +32,7 @@ occupation3:""},
 {name:"Erin", 
 age:"??", 
 page: "./Member3", 
-picture: "#", 
+picture: ".\\images\\Erin.jpg", 
 hobbies1:"", 
 hobbies2:"",
 hobbies3:"",
@@ -46,7 +47,7 @@ let memberList=[];
 memberArray.forEach((member,index)=>{
   memberList.push(
     <a key={index} href={member.page}>
-      <Member key={index} name= {member.name} age= {member.age} picture= {member.picture}/>
+      <Member key={index} name= {member.name} picture= {member.picture}/>
     </a>
   )
 })

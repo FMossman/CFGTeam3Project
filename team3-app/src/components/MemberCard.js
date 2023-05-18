@@ -3,13 +3,12 @@ import './MemberCard.css';
 
 
 
-function MemberCard({ name, age, picture }) {
+function MemberCard({ name, picture }) {
     return(
         <div className="memberCard">
             <h2>{name}</h2>
-            <h4>Age: {age}</h4>
             
-            <img src={picture} className="cardPicture" alt="team member" />
+            <img src={picture} className="cardPicture animate" alt="team member" />
            
         </div>
     )
@@ -17,7 +16,7 @@ function MemberCard({ name, age, picture }) {
 
 MemberCard.propTypes = {
     name: PropTypes.string.isRequired,
-    age: PropTypes.any.isRequired,
+    picture: PropTypes.string.isRequired,
 }
 
 export default MemberCard;
