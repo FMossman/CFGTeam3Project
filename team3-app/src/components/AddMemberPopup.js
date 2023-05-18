@@ -13,26 +13,33 @@ function AddMemberPopup(props) {
                     <br></br>
                     <form className="popUpForm">
                         <div className="formItems">
-                            <label>Name: </label>
+                            <label className="listLabel">Name: </label>
                             <input type="text"/>
                         </div>
+                        
                         <div className="formItems">
-                            <label>Age: </label>
+                            <label className="listLabel">Age: </label>
                             <input type="text"/>
                         </div>
-                        <div className="formItems">
-                            <label>Occupation: </label>
-                            <input type="text"/>
+                        
+                        <div className="occu formItems">
+                            <label className="listLabel">Occupation: </label>
+                            <div className="occuList">
+                                <input type="text"/>
+                                <input type="text"/>
+                                <input type="text"/>
+                            </div>
                         </div>
+                        
                         <div className="hobbies formItems">
-                            <label>Hobbies: </label>
+                            <label className="listLabel">Hobbies: </label>
                             <div className="hobbyList">
                                 <input type="text"/>
                                 <input type="text"/>
                                 <input type="text"/>
                             </div>
                         </div>
-                        <button type="submit">Submit</button>
+                        <button className="submitButton" type="submit">Submit</button>
                     </form>
             </div>
             </div>

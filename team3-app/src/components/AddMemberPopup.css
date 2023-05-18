@@ -55,16 +55,42 @@
     
 }
 
-.hobbyList input {
-    margin: 10px;
+
+
+.occu {
+    display: flex;
 }
 
-.formItems {
-    padding: 10px;
-    margin: 10px;
+.occuList {
+    display: flex;
+    flex-direction: column;
+    
+}
 
+
+.formItems {
+    
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid #474073;
 }
 
 input {
     width: 300px;
+    margin: 10px;
+}
+
+.listLabel {
+    margin:10px;
+}
+
+.submitButton {
+    margin: 10px;
+    background-color: #474073;
+    color: white;
+    font-size: small;
+    padding: 5px;
+    border-radius: 5px;
 }
