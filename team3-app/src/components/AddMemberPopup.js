@@ -9,29 +9,14 @@ function AddMemberPopup(props) {
                 >x</button>
                 { props.children }
                 <div className="popUpFormContainer">
-                    <h3>New Member Details</h3>
+                    <h3>New Nember Details</h3>
                     <br></br>
                     <form className="popUpForm">
-                        <div className="formItems">
-                            <label>Name: </label>
-                            <input type="text"/>
-                        </div>
-                        <div className="formItems">
-                            <label>Age: </label>
-                            <input type="text"/>
-                        </div>
-                        <div className="formItems">
-                            <label>Occupation: </label>
-                            <input type="text"/>
-                        </div>
-                        <div className="hobbies formItems">
-                            <label>Hobbies: </label>
-                            <div className="hobbyList">
-                                <input type="text"/>
-                                <input type="text"/>
-                                <input type="text"/>
-                            </div>
-                        </div>
+                        <label>Name: </label>
+                        <input type="text"/>
+                        <label>Age: </label>
+                        <input type="text"/>
+                        <textarea>Background information: </textarea>
                         <button type="submit">Submit</button>
                     </form>
             </div>
