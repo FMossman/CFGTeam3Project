@@ -5,6 +5,7 @@ import { useState } from 'react';
 import PropTypes from 'prop-types';
 
 
+/*Array of members with information*/
 const memberArray = [
 
 {name:"Fiona", 
@@ -42,6 +43,7 @@ occupation3:""}
 ];
 
 
+/*Loops over each index in the array to create an array with the html needed to create the member cards*/
 let memberList=[];
 
 memberArray.forEach((member,index)=>{
