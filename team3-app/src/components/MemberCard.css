@@ -30,12 +30,14 @@
 
 
 
-.cardPicture {
-  width: 100px;
+
+  object-fit: cover;
+  width: 75px;
   height: 100px;
   max-width: 100px;
   max-height: 100px;
-  object-fit: cover;
   border-radius: 50px;
   margin: 20px;
+  border:5px solid #474073;
+
 }

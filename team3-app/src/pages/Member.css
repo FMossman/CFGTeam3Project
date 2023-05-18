@@ -54,9 +54,11 @@
     background-size: cover;
   }
 
+
   .img-profile-erin {
     /* The image used */
     background-image: url("../../public/images/Erin.jpg");
+
 
     /* Set a specific height */
     min-width: 100vh;

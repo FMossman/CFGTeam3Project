@@ -4,7 +4,9 @@ import { SocialIcon } from 'react-social-icons';
 
 const github_url = "https://github.com/"
 const gmail_url = "https://mail.google.com"
+
 const email_url = "fyfemcwilliam@gmail.com"
+
 const whatsapp_url = "https://whatsapp.com"
 
 const Member3 = () => {
@@ -14,7 +16,9 @@ return (
             <h1>About Erin</h1>
         </section>
         <section> 
+
             <div className="img-profile-erin"></div>
+
         </section>
         <section className="left-section"> 
             <div>
@@ -26,6 +30,7 @@ return (
                     <li>Dog-sitter</li>
                     <li>Waitress</li>
                     <li>Deliveroo Rider</li>
+
                 </ul>
             </div>
         </section>
@@ -35,9 +40,11 @@ return (
             </div>
             <div className="section-list">
             <ul className="list-middle" >
+
                     <li>Renovating my Defender into a camper</li>
                     <li>Hikes with the dogs</li>
                     <li>Being at the beach</li>
+
                 </ul>
             </div>
         </section>
@@ -49,7 +56,9 @@ return (
             <ul className="list-left" >
                 <li><SocialIcon url={github_url} fgColor="#fff"  />{github_url}</li>
                 <li><SocialIcon url={gmail_url} fgColor="#fff"  />{email_url}</li>
+
                 <li><SocialIcon url={whatsapp_url} fgColor="#fff"  />07488932404</li>
+
                 </ul>
             </div>
         </section>

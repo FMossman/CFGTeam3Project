@@ -5,21 +5,52 @@ import { useState } from 'react';
 
 
 const memberArray = [
-{name:"Fiona", age:"39", page: "./Member1", picture: ".\\images\\fionamossman.jpg", hobbies:"", occupation:""},
-{name:"Jodie", age:"??", page: "./Member2", picture: "\\images\\JodieHols.png", hobbies:"", occupation:""},
-{name:"Erin", age:"24", page: "./Member3", picture: ".\\images\\Erin.jpg", hobbies:"Renovating my car, Hiking with the dogs, spending time at the beach", occupation:"Offender Employability Mentor, Dog-sitter, Waitress"}
+
+{name:"Fiona", 
+age:"39", 
+page: "./Member1", 
+picture: ".\\images\\fionamossman.jpg", 
+hobbies1:"",
+hobbies2:"",
+hobbies3:"", 
+occupation1:"",
+occupation2:"",
+occupation3:""},
+
+{name:"Jodie", 
+age:"??", 
+page: "./Member2", 
+picture: ".\\images\\JodieHols.png", 
+hobbies1:"", 
+hobbies2:"",
+hobbies3:"",
+occupation1:"",
+occupation2:"",
+occupation3:""},
+
+{name:"Erin", 
+age:"??", 
+page: "./Member3", 
+picture: "#", 
+hobbies1:"", 
+hobbies2:"",
+hobbies3:"",
+occupation1:"",
+occupation2:"",
+occupation3:""}
 ];
 
 
-  let memberList=[];
+let memberList=[];
 
-  memberArray.forEach((member,index)=>{
-    memberList.push(
-      <a key={index} href={member.page}>
+memberArray.forEach((member,index)=>{
+  memberList.push(
+    <a key={index} href={member.page}>
       <Member key={index} name= {member.name} age= {member.age} picture= {member.picture}/>
-      </a>
-    )
-  })
+    </a>
+  )
+})
+
 
 
 function Home() {
